@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="i2.css">
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 40%;
+        }
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            padding: 2px 16px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <!-- <a href="#">Portfolio</a> -->
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Home section design -->
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello I am</h3>
+            <h1>Tarun Sen Behera</h1>
+            <p>I am a computer science undergrad and I'm
+                interested in Web Designing and Android
+                Development.</p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+            
+            <a href="#" class="btn" id="firstBtn">Download Resume</a>
+        </div>
+        
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bxs-graduation'></i>
+                    <h3>Fresher</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-code'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-ghost'></i>
+                    <h3>Fresher</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bxs-universal-access'></i>
+                    <h3> Tech Enthusiast</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="/Portfolio-1/Photos/[removal.ai].png" alt="">
+        </div>
+
+    </section>
+    <br><br>
+    
+    <!-- About section design -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./Photos/[removal.ai].png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm here to help your Next Project !</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, deleniti laudantium assumenda iure
+                corporis ullam ipsa. Natus reiciendis rem aut eum tempore, voluptatum similique quam illo vitae
+                delectus, impedit ullam.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+
+    
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class='bx bxs-graduation'></i>
+                <h3>Fresher</h3>
+               
+                <!-- <br><br> -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui rerum voluptates earum, distinctio aut
+                    doloremque atque odit tempore ipsam quod dicta sit iure quaerat deleniti corrupti, vel odio optio
+                    veritatis.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-curly'></i>
+                <h3> Front-End Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui rerum voluptates earum, distinctio aut
+                    doloremque atque odit tempore ipsam quod dicta sit iure quaerat deleniti corrupti, vel odio optio
+                    veritatis.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-invader'></i>
+                <h3> C++ Programmer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui rerum voluptates earum, distinctio aut
+                    doloremque atque odit tempore ipsam quod dicta sit iure quaerat deleniti corrupti, vel odio optio
+                    veritatis.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Portfolio</span></h2>
+    </section> -->
+
+
+
+
+
+
+    <!-- Contact section design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me !</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" min="10" max="10" placeholder="Mobile Number">
+                <input type="text " placeholder="Email Address">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+
+
+        </form>
+    </section>
+
+
+    <!-- Footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Tarun Sen Behera</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+
+    <script src="i2.js"></script>
+</body>
+</html>
+
